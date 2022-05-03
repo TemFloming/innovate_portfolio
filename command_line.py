@@ -24,3 +24,7 @@
 # Initial set-up - gh auth login
 # Create Repository gh repo create < > [—flags]
 # Search Repository gh search repos < > [—flags]
+
+# git add
+# git commit
+# git push
