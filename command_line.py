@@ -28,3 +28,7 @@
 # git add
 # git commit
 # git push
+#
+# git add .
+# git commit -m "a message here"
+# git push -u origin main
