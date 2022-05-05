@@ -1,0 +1,34 @@
+body {
+    background-color:pink
+}
+
+@font-face{
+    font-family: pokemon_generation_1;
+    src: url(fonts/pokemon_generation_1.ttf);
+}
+
+*{
+    font-family: pokemon_generation_1;
+}
+
+#navigation{
+    background-color: white;
+}
+
+#navigation a{
+    color:pink
+}
+
+#navigation a:hover{
+    color: rgba(255, 192, 203, 0.185);
+} 
+
+#footer{
+    height: 100px;
+    border: 5px;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
