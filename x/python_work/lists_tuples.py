@@ -86,3 +86,34 @@
 #     print(num)
 #     num+=1
 
+
+# ------------------------------------------------
+
+# Acivity 1
+
+# answer = input("Question?(yes/no)")
+# if answer.lower().strip() ==("yes"):
+#     answer2= input("How many?").strip()
+#     if answer2 =="1"or answer2 =="3" or answer2 =="4" or answer2 =="5" or answer2=="6" or answer2 =="7" or answer2
+#         print("That's great.")
+#     else:
+#         print("Please enter a number.")
+# else:
+#     print("...")
+
+#     nums = [1,2,3,4,5,6,7,8,9,10]
+#     answer2 = input("Enter a number.")
+
+# try:
+#     if int(answer2):
+#         print(
+#         f"This number {answer2} is actually a number."
+#         )
+#     else:
+#         print(
+#             "This answer is not in the list."
+#         )
+# except:
+#     print(f"That is not a number.")
+
+# ------------------------------------------------
