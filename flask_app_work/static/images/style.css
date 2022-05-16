@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    margin: 6px;
+    padding-left: 14px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px
+}
+
+footer{
+    color: blue;
+    font-size: 22px;
+}
+
+nav{
+    display: flex;
+}
+
+

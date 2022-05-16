@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>This is the about me page</h1>
+
+<h3>These are my favourite artists:</h3>
+<p>{{ bands }}</p>
+{% for each_band in bands %}
+<h1>{{ each_band }}</h1>
+{% endfor %}
+<form action="/about" method="POST" name="band_list">
+{% if "Radiohead" in bands %}
+<h1>{{ bands[0] }}</h1>
+{% else %}
+{% for x in bands %}
+<h3 name="band_entry">{{ x }}</h3><button type="sumbit" name="delete_btn">(delete!)</button>
+{% endfor %}
+{% endif %}
+</form>
+
+<form action="/about" method="post">
+    <input type="text" name="add_band" id="band_add" placeholder="Enter the band you wish to add!">
+    <button type="submit" style="display: none;">Submit</button>
+</form>
+
+
+{% endblock %}
+
+<!-- ----------------------- -->

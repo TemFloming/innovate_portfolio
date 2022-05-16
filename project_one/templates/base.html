@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    
+    <title></title>
+
+
+<body onload="darkCheck()">
+    <script src="{{ url_for('static', filename='app.js')}}"></script>
+    <header>
+        <nav>
+            <a href="{{ url_for('my_view.home') }}"><li>Home</li></a>
+            <a href="{{ url_for('my_view.page1') }}"><li>Page1</li></a>
+            <a href="{{ url_for('my_view.page2') }}"><li>Page2</li></a>
+            <a href="{{ url_for('my_view.page3') }}"><li>Page3</li></a>
+            <a href="{{ url_for('my_view.page4') }}"><li>Page4</li></a>
+            <a href="{{ url_for('my_view.page5') }}"><li>Page5</li></a>
+        </nav>
+    </header>
+
+
+
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
